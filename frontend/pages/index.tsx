@@ -384,9 +384,9 @@ export default function Home() {
 
             {/* Header */}
             <div className="rounded-t-xl bg-gray-200 p-4 flex justify-between items-center">
-              🐕 RAGtriever Chat
+             📧 Landmark Global Chat
               <div className="text-xs text-white font-mono flex justify-center">
-                <a href="https://github.com/weaviate/Verba" target="_blank" rel="noopener noreferrer">
+                <a href="https://binarybridge.ai" target="_blank" rel="noopener noreferrer">
                   <span
                     className={`rounded-indicator hover-container text-white p-2 ${apiStatus === 'Online'
                       ? 'bg-green-500 hover:bg-green-400'
@@ -396,10 +396,10 @@ export default function Home() {
                     {apiStatus + " v0.3.1"}
                   </span>
                 </a>
-                <a href="https://www.weaviate.io" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.binarybridge.ai" target="_blank" rel="noopener noreferrer">
                   <span
                     className="rounded-indicator text-white bg-gray-400 hover:bg-gray-300 ml-2 p-2 hover-container">
-                    Powered by Weaviate ❤️
+                    Powered by Binary Bridge ❤️
                   </span>
                 </a>
               </div>
