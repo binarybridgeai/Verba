@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [googleTag, setGoogleTag] = useState<string>("");
 
   useEffect(() => {
-    document.body.style.backgroundImage = `url('${bgUrl + 'background.png'}')`;
+    document.body.style.backgroundImage = `url('${bgUrl + 'LGBG3.png'}')`;
     document.body.style.backgroundPosition = "center";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";

@@ -171,21 +171,21 @@ export default function DocumentOnly() {
                 <div className="mb-2">
                     <div className="flex justify-between items-center w-full"> {/* <-- flexbox container */}
                         <div className="flex-none">
-                            <div className="bg-yellow-200 border-2 border-gray-800 rounded-lg shadow-lg animate-pop-in hover-container mr-4 ">
-                                <img src={`${bgUrl}verba.png`} alt="Verba Logo" className=" w-24 h-24 shadow-lg" />
+                            <div className="bg-white-200 border-2 border-gray-800 rounded-lg shadow-lg animate-pop-in hover-container mr-4 ">
+                                <img src={`${bgUrl}landmarkLogo.png`} alt="landmarklogo" className=" w-24 h-24 shadow-lg" />
                             </div>
                         </div>
                         <div className="flex-1">
-                            <h1 className=" text-6xl font-bold">Verba</h1>
+                            <h1 className=" text-6xl font-bold">Landmark Global</h1>
                             <div className="flex text-lg">
                                 <span className="bg-opacity-0 rounded px-2 py-1 hover-container animate-pop-in">
-                                    The
+                                    Information
                                 </span>
                                 <span className="bg-opacity-0 rounded font-bold px-2 py-1 hover-container animate-pop-in-late">
-                                    Golden
+                                    Management
                                 </span>
-                                <span className="bg-yellow-200 rounded px-2 py-1 hover-container animate-pop-more-late">
-                                    RAGtriever
+                                <span className="bg-red-200 rounded px-2 py-1 hover-container animate-pop-more-late">
+                                    System
                                 </span>
                             </div>
                         </div>
@@ -197,7 +197,6 @@ export default function DocumentOnly() {
                                 <FaPlus />
                                 <span>Add Documents</span>
                             </button>
-                            <ConfigModal component="embedders" apiHost={apiHost} onGeneratorSelect={generatorStreamable} production={production}></ConfigModal>
                         </div>
                     </div>
                 </div>
